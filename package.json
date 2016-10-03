@@ -1,6 +1,6 @@
 {
   "name": "aurelia-navigation-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "navigation component for aurelia",
   "directories": {
     "lib": "src"
@@ -22,9 +22,13 @@
   },
   "homepage": "https://github.com/jeremygithubuser/aurelia-navigation-component#readme",
   "jspm": {
+    "directories": {
+      "lib": "src"
+    },
     "dependencies": {
       "aurelia-framework": "npm:aurelia-framework@1.0.2",
-      "bootstrap": "github:twbs/bootstrap@3.3.7"
+      "bootstrap": "github:twbs/bootstrap@3.3.7",
+      "font-awesome": "npm:font-awesome@4.6.3"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
