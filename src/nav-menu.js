@@ -4,6 +4,8 @@ export class NavMenu {
 
   /* start-non-standard */
   @bindable router = null;
+  @bindable user = null;
+  @bindable logout = null;
   /* end-non-standard */
 
 }
